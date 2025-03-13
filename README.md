@@ -13,7 +13,8 @@ with the layout of the
 The keyboard was designed using [FreeCAD](https://www.freecad.org/) and printed
 using a Creality Ender 3v3 ke 3D printer using creality CR PLA filament.
 
-The name ERiks KeyBoard is ment to honor the Corne (crkbd), which was my first split keyboard and what pulled me down this rabit hole combined with the fact that my name is Erik.
+The name ERiks KeyBoarD is ment to honor corne (crkbd), which pulled me down
+this money burning rabit hole combined with the fact that my name is Erik.
 
 ## Images
 ![](images/keyboard_side_view.png)
@@ -28,6 +29,9 @@ The name ERiks KeyBoard is ment to honor the Corne (crkbd), which was my first s
 ![](images/oled_washer.png)
 ![](images/soldered_plate.png)
 ![](images/mounted_oled.png)
+
+The knife was a short but intense meme on reddit.com/r/ErgoMechKeyboards they
+are not included.
 
 ## Issues and things to be aware of before building
 
@@ -276,12 +280,12 @@ Make sure you use the same legs on both halves. Double check with a multimeter b
 
 Test everything before assembling the case, especially that you are able to
 enter the bootloader using bootmagic on both sides. Check the qmk console
-that all keys are properly registred and that you are able to flash using.
+that all keys are properly registred.
 
 Add hot glue where needed, in theory it should be possible to use no glue and
 have everything fixed by friction but i recommend at least glueing the trs jack,
 and controller. It makes mounting the case easier and will make it less fragile,
-when inserting the cable.
+when inserting and the cable.
 
 Then insert the plate in the case and secure with the m2 screws.
 
