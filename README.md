@@ -1,9 +1,9 @@
-# Erkbd - Eriks Keyboard
+# erkbd - Eriks Keyboard
 
 Erkbd is a 3D printed, handwired 44 key split keyboard powered by qmk.
 
 It
-features two encoders and two 1.3" 128x64 oled displays, and uses the
+features two encoders, two 1.3" 128x64 oled displays, and uses the
 waveshare rp2040zero development board.
 
 It is inspired primarily by [crkbd](https://github.com/foostan/crkbd) together
@@ -34,7 +34,7 @@ The name ERiks KeyBoard is ment to honor the Corne (crkbd), which was my first s
 If you decide to build this be aware that i am a hobbyist and amateur (as you
 might tell from the image of the soldered plate). This was also my first 3D
 modeling project with no previous CAD experience. It is not perfect and
-there are a few issues listed here
+there are a few issues listed here.
 
 **Case dimensions**
 
@@ -87,8 +87,7 @@ Also note that these they have ground and vcc pins reversed.
 **Spacer positions**
 
 The screws for two of the spacers holding the plate up are hidden behind the
-oled modules. This makes it important to mount these first. Care should also be taken
-remove the oled cover so they don't fall out to avoid having to remove the oled
+oled modules. This makes it important to mount these first. Care should also be taken if removing the case so they don't fall out to avoid having to remove the oled
 frame.
 
 ## BOM
@@ -151,7 +150,7 @@ After flashing, bootloader can be entered by
 
 - Double tapping reset on the controller
 - Bootmagic (Holding down key 0, 0 (left side) or 4, 5 (right side) when powering
-on)
+on
 - Adding QK_BOOT to your keymap.
 
 ### Mount the switch plate and case.
@@ -258,7 +257,7 @@ The two pins on the other side are soldered to the matrix as a regular switch
 
 **TRRS**
 
-Push the trs jack into the slot on the plate with the three pines on one side
+Push the trs jack into the slot on the plate with the three pins on one side
 pointing out sideways on the top
 
 The jack will be held in place by the case so hot glue is optional but
