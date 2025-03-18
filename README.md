@@ -14,7 +14,7 @@ The keyboard was designed using [FreeCAD](https://www.freecad.org/) and printed
 using a Creality Ender 3v3 ke 3D printer using creality CR PLA filament.
 
 The name ERiks KeyBoarD is ment to honor corne (crkbd), which pulled me down
-this money burning rabit hole combined with the fact that my name is Erik.
+this money burning rabbit hole combined with the fact that my name is Erik.
 
 ## Images
 ![](images/keyboard_side_view.png)
@@ -241,9 +241,9 @@ The matrix pins are different on the right and left side.
 | :----- | :--- |
 | 0      | GP9  |
 | 1      | GP10 |
-| 2      | GP12 |
-| 3      | GP13 |
-| 4      | GP12 |
+| 2      | GP11 |
+| 3      | GP12 |
+| 4      | GP13 |
 | 5      | GP14 |
 
 
