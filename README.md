@@ -125,12 +125,16 @@ dimensions match but don't get ugly ones.
 
 ## Firmware
 
-The configuration and a default keymap that can be used for debugging can be
-found in my qmk fork
-[here](https://github.com/erikpeyronson/qmk_firmware/tree/erkbd/keyboards/handwired/erikpeyronson/erkbd)
-prebuilt firmware for the default keymap is available to download in this repo.
+The keyboard source along with a default and debug keymap can be found in the official
+qmk_firmware repo
+[here](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/erikpeyronson/erkbd).
 
-Once finished copy the default keymap to your qmk fork or userspace repository.
+The prebuilt firmware in this repository is only intended for testing.
+
+When creating your own keymap you can copy the keymaps/default directory for data driven keymap.json
+configuration or keymaps/debug if you want to use a regular keymap.c
+
+The only difference is that the debug version logs matrix events to the console and prints handedness instead of mod/layer status to the oleds.
 
 ## Build steps
 
@@ -147,8 +151,9 @@ print plate and z-offset calibration will have a big impact on the result
 
 #### Flash the controllers.
 
-Before starting, flash the controllers. The default way to enter bootloader is
-to hold down boot and tap reset on the board.
+Before starting, flash the controllers with the debug version of the firmware.
+The default way to enter bootloader is to hold down boot and tap reset on the
+board.
 
 After flashing, bootloader can be entered by
 
