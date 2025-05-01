@@ -35,10 +35,9 @@ are not included.
 
 ## Issues and things to be aware of before building
 
-If you decide to build this be aware that i am a hobbyist and amateur (as you
-might tell from the image of the soldered plate). This was also my first 3D
-modeling project with no previous CAD experience. It is not perfect and
-there are a few issues listed here.
+If you decide to build this be aware that this was my first 3D modeling project
+with no previous CAD experience. It is not perfect and there are a few issues
+listed here.
 
 **Case dimensions**
 
