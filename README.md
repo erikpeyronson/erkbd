@@ -139,6 +139,9 @@ The only difference is that the debug version logs matrix events to the console 
 
 #### Printing
 
+*note* The 3mf files were edited and saved using an old version of orca slicer and
+might not open properly. If you have issues (or just prefer it) use the STLs
+
 The keyboard consists of 3 parts. The switch plate (printed face down), the case
 (printed face up) and the oled frame (printed face down). In addition to this
 you need to print 8 washers that sits between the oled pcb and plate to make the
